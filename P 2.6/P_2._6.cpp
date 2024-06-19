@@ -70,7 +70,7 @@ void findDuplicates(const vector<int>& array) {
     if (duplicates.empty()) {
         cout << "Дубликатов нет.\r\n";
     } else {
-        cout << "Найденные дубликаты: ";
+        cout << "Найденны дубликаты: ";
         for (int num : duplicates) {
             cout << num << " ";
         }
@@ -129,7 +129,7 @@ int main() {
     cout << "\r\n";
 
     cout << "Задание 3\r\n";
-    vector<int> array = {1, 2, 3, 4, 5, 2, 6, 7, 8, 5};
+    vector<int> array = { 51, 58, 899, 235, 51, 4618, 231, 235, 1568, 8456, 156, 231 };
 
     findDuplicates(array);
     
@@ -141,9 +141,9 @@ int main() {
     cin >> inputString;
 
     if (hasDuplicateChars(inputString)) {
-        cout << "Строка имеет дубликаты символов.\r\n";
+        cout << "В строке есть дубликаты символов.\r\n";
     } else {
-        cout << "Строка не имеет дубликаты символов.\r\n";
+        cout << "В строке нет дубликатов символов.\r\n";
     }
 
     return 0;
